@@ -30,6 +30,7 @@ Both VMs share:
 
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) >= 1.0
+- [jq](https://jqlang.github.io/jq/download/) — JSON parser used in bootstrap script
 - SSH key at `~/.ssh/id_rsa.pub` — generate with:
 ```bash
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
