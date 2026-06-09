@@ -26,6 +26,7 @@ if ! az ad sp list --display-name "${SP_NAME}" --query "[0].id" -o tsv | grep -q
 ARM_CLIENT_ID=${ARM_CLIENT_ID}
 ARM_CLIENT_SECRET=${ARM_CLIENT_SECRET}
 ARM_TENANT_ID=${ARM_TENANT_ID}
+ARM_SUBSCRIPTION_ID=${SUBSCRIPTION_ID}
 EOF
     echo "Credentials saved to ${ENV_FILE}"
 
