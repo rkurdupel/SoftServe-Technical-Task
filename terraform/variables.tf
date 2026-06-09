@@ -24,6 +24,6 @@ variable "vm_size" {
 }
 
 variable "vm_count" {
-    type = string
+    type = number
     default = 2
 }
