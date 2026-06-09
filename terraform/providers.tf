@@ -1,4 +1,4 @@
 provider "azurerm" {
   # Configuration options
-  features{}
+  features {}
 }
